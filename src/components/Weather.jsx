@@ -52,6 +52,7 @@ function Weather() {
                             <div>
                                 <div style={{ color: 'white', fontSize: '20px' }}>Nem: {weather.main.humidity}%</div>
                                 <div style={{ color: 'white', fontSize: '20px' }}>Rüzgar: {Math.round(weather.wind.speed)} m/s</div>
+                                <div style={{ color: 'white', fontSize: '20px' }}>Hissedilen Sıcaklık: {Math.round(weather.main.feels_like)}°C</div>
                             </div>
                         )}
                     </span>
