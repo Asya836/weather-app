@@ -9,3 +9,4 @@ Proje react ile oluşturulmuş, hava durumu bilgileri axios ile çekilmektedir.
 - rüzgar
 - hissedilen sıcaklık
 
+<img width="1361" height="742" alt="weather" src="https://github.com/user-attachments/assets/c8740d91-34a1-4859-821d-b45e8af53e7b" />
