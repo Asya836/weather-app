@@ -1,12 +1,12 @@
 # WEATHER
 
-Proje react ile oluşturulmuş, hava durumu bilgileri axios ile çekilmektedir.
+Bu uygulama react ile oluşturulmuş, kullanıcıların anlık hava durumu bilgilerini görebilceği basit bir hava durumu uygulamasıdır.Gerçek hava durumu verisi, OpenWeatherMap'ten bir hava durumu API'si aracılığıyla alınır.
 
 Şehir girildikten sonra aşağıdaki bilgilere ulaşılabilir:
-- derece
-- açıklama
-- nem
-- rüzgar
-- hissedilen sıcaklık
+- Derece
+- Açıklama
+- Nem
+- Rüzgar
+- Hissedilen sıcaklık
 
-<img width="1320" height="700" alt="weather" src="https://github.com/user-attachments/assets/c8740d91-34a1-4859-821d-b45e8af53e7b" />
+<img width="985" height="610" alt="weather" src="https://github.com/user-attachments/assets/0ec29103-695b-4249-a06b-155c50259047" />
