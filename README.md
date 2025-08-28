@@ -9,4 +9,4 @@ Bu uygulama react ile oluşturulmuş, kullanıcıların anlık hava durumu bilgi
 - Rüzgar
 - Hissedilen sıcaklık
 
-<img width="985" height="610" alt="weather" src="https://github.com/user-attachments/assets/0ec29103-695b-4249-a06b-155c50259047" />
+<img width="800" height="500" alt="weather" src="https://github.com/user-attachments/assets/0ec29103-695b-4249-a06b-155c50259047" />
