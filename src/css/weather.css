@@ -1,5 +1,5 @@
 .weather-container {
-    background-color: rgb(50, 67, 82);
+    background-color: rgb(52, 95, 133);
     border-radius: 15px;
     width: 650px;
     height: 400px;
@@ -11,7 +11,7 @@
     width: 45%;
     height: 100%;
     border-radius: 15px;
-    background-image: url('../image/clouds-7584944_640.jpg');
+    background-image: url('../image/sky.jpg');
     background-size: cover;
     opacity: 0.8;
     display: flex;

@@ -6,6 +6,7 @@ import { getWeather } from "../api/weatherService";
 function Weather() {
     const [city, setCity] = useState('');
     const [weather, setWeather] = useState(null);
+    const [fiveday, setFiveday] = useState(null);
     const [error, setError] = useState('');
 
     const handleSearch = async (searchCity) => {
@@ -27,7 +28,7 @@ function Weather() {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '30px', marginLeft: '30px' }}>
                         <span style={{ color: 'white', fontSize: '18px' }}>{weather ? new Date(weather.dt * 1000).toLocaleString('tr-TR') : ''}</span>
                         <span style={{ color: 'white', fontSize: '18px' }}>{weather ? weather.name : ''}</span>
-                        <span style={{ color: 'white', fontSize: '18px' }}>{weather ? weather.sys.country : ''}</span>
+                        <span style={{ color: 'white', fontSize: '18px' }}>{weather ? weather.sys.country : 'Lütfen hava durumunu görmek istediğiniz şehri girin.'}</span>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '30px', marginLeft: '30px' }}>
                         <span>
